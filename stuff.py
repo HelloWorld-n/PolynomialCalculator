@@ -165,7 +165,7 @@ def setColorMode(isItLight = None, changeSettings = True):
 		file.close()
 
 
-def theAppFont(name = "Consolas", size = "10", style = "normal"):
+def theAppFont(name = "Consolas", size = "12", style = "normal"):
 	return f"{name} {size} {style}"
 
 def createElement(element, *args, toPack = True, **kwargs):
